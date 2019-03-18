@@ -1,2 +1,433 @@
-theme: jekyll-theme-hacker
-encoding: UTF-8
+nav:
+  - name: About
+    ref: "#about"
+  - name: Registration
+    ref: "#registration"
+  # - name: Judges
+  #   ref: "#judges"
+  - name: Sponsors
+    ref: "#sponsors"
+  # - name: Prizes
+  #   ref: "#prizes"
+  - name: Rules
+    ref: "#rules"
+
+social:
+  - url: https://www.facebook.com/spawnfest2017
+    icon: "fab fa-facebook"
+  - url: https://github.com/orgs/spawnfest/teams/players
+    icon: "fab fa-github"
+  - url: https://twitter.com/spawnfest
+    icon: "fab fa-twitter-square"
+  - url: https://erlanger.slack.com/?redir=%2Fmessages%2FC7M2PNZHB
+    icon: "fab fa-slack"
+  - url: "mailto:spawnfest-organizers@googlegroups.com"
+    icon: "fas fa-envelope"
+
+platinum_sponsor:
+  # name: PegB
+  # image: pegb.svg
+  # logo: pegb_logo.svg
+  # url: https://www.pegb.tech/
+  # description: Secure Cashless Payments for everyone, everywhere
+  # background_color: "#f05323"
+
+gold_sponsors:
+  # - name: Erlang Solutions
+  #   image: esl.svg
+  #   logo: esl.png
+  #   url: https://www.erlang-solutions.com/
+  #   description: "Erlang, Elixir & BEAM Technology Consultancy"
+  #   background_color: "#ab191e"
+  # - name: Peer Stritzinger GmbH
+  #   image: PS_Logo.svg
+  #   logo: peer.svg
+  #   url: https://www.stritzinger.com/
+  #   description: "Dive into a new experience of building wireless embedded systems"
+  #   background_color: "#438"
+  # - name: AdRoll Group
+  #   image: droll.svg
+  #   logo: logo-adroll-group.png
+  #   url: https://tech.adroll.com/
+  #   description: "The future of e-commerce marketing"
+  #   background_color: "#00aeef"
+  # - name: Scrapinghub
+  #   image: scrapinghub.svg
+  #   logo: shub-standard-logo.png
+  #   url: https://scrapinghub.com/
+  #   description: "Turn websites into data"
+  #   background_color: "#607d8b"
+
+bronze_sponsors:
+  # - name: 10Pines
+  #   image: 10pines-blanco.svg
+  #   logo: 10pines-color.svg
+  #   url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+  #   description: "We don't just write code. We craft your ideas."
+  #   background_color: "#9FC52E"
+  # - name: Fiqus
+  #   image: fiqus.png
+  #   logo: fiqusoscuro.png
+  #   url: http://www.fiqus.com
+  #   description: "Software Cooperative"
+  #   background_color: "#333333"
+  # - name: LambdaClass
+  #   image: lambdaclass-gray.png
+  #   logo: lambdaclass.png
+  #   url: http://lambdaclass.com/
+  #   description: "A Software Company from Another Dimension"
+  #   background_color: "#000000"
+
+prizes:
+  # - name: <strong>500USD</strong> Amazon Gift Card
+  #   sponsor: PegB
+  #   sponsor_url: https://www.pegb.tech/
+  #   url: https://www.amazon.com/gift-cards/
+  #   image: amazon-gift-card-500.png
+  # - name: <strong>500USD</strong> Amazon Gift Card
+  #   sponsor: PegB
+  #   sponsor_url: https://www.pegb.tech/
+  #   url: https://www.amazon.com/gift-cards/
+  #   image: amazon-gift-card-500.png
+  # - name: <strong>500USD</strong> Amazon Gift Card
+  #   sponsor: PegB
+  #   sponsor_url: https://www.pegb.tech/
+  #   url: https://www.amazon.com/gift-cards/
+  #   image: amazon-gift-card-500.png
+  # - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+  #   sponsor: Erlang Solutions
+  #   sponsor_url: https://www.erlang-solutions.com/
+  #   url: https://codesync.global/conferences/code-beam-sf-2019/
+  #   image: codebeamsf2018.jpg
+  # - name: <strong>4x</strong> <strong>150USD</strong> Free tickets to Any CodeBEAM Lite
+  #   sponsor: Erlang Solutions
+  #   sponsor_url: https://www.erlang-solutions.com/
+  #   url: https://codesync.global/conferences/#CodeBEAMLite
+  #   image: codebeamlite2018.jpg
+  # - name: <strong>300USD</strong> Amazon Gift Card
+  #   sponsor: AdRoll
+  #   sponsor_url: https://tech.adroll.com/
+  #   url: https://www.amazon.com/gift-cards/
+  #   image: amazon-gift-card5.png
+  # - name: <strong>300USD</strong> Amazon Gift Card
+  #   sponsor: AdRoll
+  #   sponsor_url: https://tech.adroll.com/
+  #   url: https://www.amazon.com/gift-cards/
+  #   image: amazon-gift-card5.png
+  # - name: A bunch of books (TBD)
+  #   sponsor: LambdaClass
+  #   sponsor_url: http://lambdaclass.com/
+  #   url: https://youtu.be/oHg5SJYRHA0
+  #   image: books.png
+  # - name: Designing Data-Intensive Applications (the book)
+  #   sponsor: LambdaClass
+  #   sponsor_url: http://lambdaclass.com/
+  #   url: https://dataintensive.net/
+  #   image: book-1.png
+  # - name: 2 GRiSP boards, a Motor Robot Kit and assorted PMODs
+  #   sponsor: Peer Stritzinger GmbH
+  #   sponsor_url: https://www.stritzinger.com/
+  #   url: https://www.grisp.org
+  #   image: Grisp.jpeg
+  # - name: GoPro HERO5
+  #   sponsor: Scrapinghub
+  #   sponsor_url: https://scrapinghub.com/
+  #   url: http://a.co/d/i6w4LVH
+  #   image: gopro.jpg
+  # - name: Bose QuietComfort 35 (Series II) Wireless Headphones
+  #   sponsor: Scrapinghub
+  #   sponsor_url: https://scrapinghub.com/
+  #   url: http://a.co/d/20tFeCm
+  #   image: headphones.jpg
+  # - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
+  #   sponsor: Fiqus
+  #   sponsor_url: http://www.fiqus.com
+  #   url: https://elixircasts.io/alchemists-edition
+  #   image: alchemist.png
+  # - name: 4 unique t-shirts
+  #   sponsor: 10Pines
+  #   sponsor_url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+  #   url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+  #   image: remeras.png
+
+judges:
+  # - name: René Föhring
+  #   url: http://trivelop.de/
+  #   twitter: rrrene
+  #   image: rrrene.png
+  # - name: Kenji Rikitake
+  #   url: https://rikitake.jp/
+  #   twitter: jj1bdx
+  #   image: kenji.jpg
+  # - name: Tristan Sloughter
+  #   url: http://blog.erlware.org
+  #   twitter: t_sloughter
+  #   image: tristan.jpg
+  # - name: Miriam Pena
+  #   url: https://www.linkedin.com/in/miriampena/
+  #   twitter: miriampena
+  #   image: miriam.jpg
+  # - name: Andrea Leopardi
+  #   url: https://andrealeopardi.com/
+  #   twitter: whatyouhide
+  #   image: whatyouhide.jpg
+  # - name: Juan Facorro
+  #   url: http://juan.facorro.com
+  #   twitter: jfacorro
+  #   image: juan.jpeg
+
+winner:
+  team: Iñaqus
+  project: Lambdex
+  repo: lambdex
+  description: <a href="https://github.com/spawnfest/lambdex" target="_blank">Lambdex</a> is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
+  members:
+    - user: mlambir
+      avatar: https://avatars2.githubusercontent.com/u/117318
+    - user: pbrudnick
+      avatar: https://avatars1.githubusercontent.com/u/896524
+    - user: diegomanuel
+      avatar: https://avatars1.githubusercontent.com/u/5076158
+    - user: igaray
+      avatar: https://avatars3.githubusercontent.com/u/167193
+  prizes:
+    - name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+    - name: GoPro HERO5
+      sponsor: Scrapinghub
+      sponsor_url: https://scrapinghub.com/
+      url: http://a.co/d/i6w4LVH
+      image: gopro.jpg
+  comments:
+    - text: Fully running code, fun to use, looks practical.
+      author: Kenji
+    - text: Really interesting and complete project.
+      author: Juan Facorro
+
+category_winners:
+  - team: boxerboy
+    project: Boxerboy
+    repo: boxerboyapp
+    description: This is the beginnings of a game builder for old-school pixelated games. The idea was from my son, and although he really wanted it to run on his 3DS, we are taking small steps to get this done.
+    category: Creativity
+    members:
+      - user: aforward
+        avatar: https://avatars2.githubusercontent.com/u/48086
+    prizes:
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: AdRoll
+        sponsor_url: https://tech.adroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card5.png
+      - name: A bunch of books (TBD)
+        sponsor: LambdaClass
+        sponsor_url: http://lambdaclass.com/
+        url: https://youtu.be/oHg5SJYRHA0
+        image: books.png
+    comments:
+      - text: Fully running code, easy to use, easy to understand and play
+        author: Kenji
+  - team: Nordic Syntax Tree
+    project: FuncDiff
+    repo: func_diff
+    description: Diff Erlang/Elixir projects by modules and functions (including its doc and typespec) across git branches.
+    category: Usefulness
+    members:
+      - user: aquarhead
+        avatar: https://avatars2.githubusercontent.com/u/222272
+      - user: fdfzcq
+        avatar: https://avatars0.githubusercontent.com/u/5684684
+      - user: starrify
+        avatar: https://avatars1.githubusercontent.com/u/388828
+    prizes:
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: AdRoll
+        sponsor_url: https://tech.adroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card5.png
+      - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
+        sponsor: Fiqus
+        sponsor_url: http://www.fiqus.com
+        url: https://elixircasts.io/alchemists-edition
+        image: alchemist.png
+    comments:
+      - text: Something like this could be used to allow Hex to warn the user when publishing breaking changes as a minor release.
+        author: René
+  - team: K32
+    project: Lee
+    repo: lee
+    description: Lee helps creating type-safe, self-documenting configuration for Erlang applications. It is basically a data modeling DSL, vaguely inspired by YANG, however scaled down a lot.
+    category: Innovation
+    members:
+      - user: k32
+        avatar: https://avatars1.githubusercontent.com/u/10274441
+    prizes:
+      - name: <strong>500USD</strong> Amazon Gift Card
+        sponsor: PegB
+        sponsor_url: https://www.pegb.tech/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card-500.png
+      - name: Designing Data-Intensive Applications (the book)
+        sponsor: LambdaClass
+        sponsor_url: http://lambdaclass.com/
+        url: https://dataintensive.net/
+        image: book-1.png
+    comments:
+      - text: Plenty of potential as something like clique
+        author: Tristan
+  - team: BRB
+    project: Brink
+    repo: team-brb
+    description: Brink is a producer-consumer library for Redis Streams. It is an implementation of the GenStage behavior and is intended to be used with Flow.
+    category: Correctness
+    members:
+      - user: ramonsnir
+        avatar: https://avatars3.githubusercontent.com/u/1024028
+      - user: bgottlob
+        avatar: https://avatars1.githubusercontent.com/u/3633212
+    prizes:
+      - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+        sponsor: Erlang Solutions
+        sponsor_url: https://www.erlang-solutions.com/
+        url: https://codesync.global/conferences/code-beam-sf-2019/
+        image: codebeamsf2018.jpg
+      - name: 2 GRiSP boards, a Motor Robot Kit and assorted PMODs
+        sponsor: Peer Stritzinger GmbH
+        sponsor_url: https://www.stritzinger.com/
+        url: https://www.grisp.org
+        image: Grisp.jpeg
+    comments:
+      - text: It was pretty nice having the docker-compose cluster to check how consumer(s) and producer(s) interacted together.
+        author: Juan Facorro
+  - team: Iñaqus
+    project: Lambdex
+    repo: lambdex
+    description: <a href="https://github.com/spawnfest/lambdex" target="_blank">Lambdex</a> is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
+    category: Maintainability
+    members:
+      - user: mlambir
+        avatar: https://avatars2.githubusercontent.com/u/117318
+      - user: pbrudnick
+        avatar: https://avatars1.githubusercontent.com/u/896524
+      - user: diegomanuel
+        avatar: https://avatars1.githubusercontent.com/u/5076158
+      - user: igaray
+        avatar: https://avatars3.githubusercontent.com/u/167193
+    prizes:
+      - name: Bose QuietComfort 35 (Series II) Wireless Headphones
+        sponsor: Scrapinghub
+        sponsor_url: https://scrapinghub.com/
+        url: http://a.co/d/20tFeCm
+        image: headphones.jpg
+      - name: 4 unique t-shirts
+        sponsor: 10Pines
+        sponsor_url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+        url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+        image: remeras.png
+    comments:
+      - text: extra points for providing a docker-compose setup
+        author: Tristan
+  - team: Pink Team
+    project: Vostok
+    repo: vostok
+    description: Vostok converts an image to a pixelated SVG.</br>Восток (Vostok in English) was the Russian spacecraft that in 1961 allowed the first human spaceflight.
+    category: Completion
+    members:
+      - user: xrmx
+        avatar: https://avatars3.githubusercontent.com/u/12932
+      - user: endorama
+        avatar: https://avatars3.githubusercontent.com/u/526307
+      - user: mukkoo
+        avatar: https://avatars0.githubusercontent.com/u/1052512
+      - user: ramensoup
+        avatar: https://avatars0.githubusercontent.com/u/9130232
+    prizes:
+      - name: <strong>500USD</strong> Amazon Gift Card
+        sponsor: PegB
+        sponsor_url: https://www.pegb.tech/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card-500.png
+      - name: <strong>4x</strong> <strong>150USD</strong> Free tickets to Any CodeBEAM Lite
+        sponsor: Erlang Solutions
+        sponsor_url: https://www.erlang-solutions.com/
+        url: https://codesync.global/conferences/#CodeBEAMLite
+        image: codebeamlite2018.jpg
+    comments:
+      - text: Extra points for the nice logo and curated README
+        author: Andrea
+
+rules:
+  - title: "Schedule"
+    icon: "fas fa-calendar-alt"
+    details:
+      - text: The event will start on <strong>2019-09-21 00:00 UTC</strong>.
+      - text: The event will end on <strong>2019-09-22 23:59 UTC</strong>.
+      - text: The registration will close 2 days prior to the start date.
+      - text: Each team will have exactly 48 hours to work on their projects.
+  - title: Teams
+    icon: "fas fa-users"
+    details:
+      - text: "Team size is 1 to 4."
+      - text: "Every team member has to be a human being, not an organization."
+      - text: "All members of the team should be 13 years old or older."
+      - text: "Judges of this contest can not participate in it as members of a team."
+      - text: Every team has to be registered by completing the <span class="disabled-section"><a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a> [Closed]</span>.
+  - title: Projects
+    icon: "fas fa-rocket"
+    details:
+      - text: "All projects should be written to run on the Erlang VM / BEAM."
+      - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
+      - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
+      - text: "Only code created after the start of the contest will be evaluated by the judges."
+      - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
+      - text: Each team should come up with their own project idea (If you need inspiration check <a href="/ideas">our list of project ideas</a>)
+      - text: "The organizing team will create a git repository at GitHub for each team."
+      - text: "If a team needs more than one, they can ask the organizers to create extra repos for them."
+      - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
+      - text: "The only required deliverable is the code, but everything in the repository will be used for evaluation."
+      - text: "Suggested extra deliverables to include: Documentation, comprehensive README.md, project-related art (e.g. Logos), tests and anything that makes building and understanding the system easier for the judges."
+      - text: "Usage of third party libraries and web services is not prohibited, even encouraged."
+      - text: "<em>Ownership and Copyright:</em> Each team retains all the rights to their submissions."
+      - text: "<em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
+      - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
+  - title: Evaluation
+    icon: "fas fa-gavel"
+    details:
+      - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
+      - text: "Each project will be evaluated in 6 different categories: Creativity, Usefulness, Innovation, Correctness, Maintainability and Completion."
+      - text: "Final interpretation of each category meaning is up to the judges, but as general guidelines:
+              <dl class=\"pl-3\">
+                <dt>Creativity</dt><dd>This category assigns points for unexpectedness, eccentricity, fun. This is a broad category that may apply to the project, its code, the team, etc.</dd>
+                <dt>Usefulness</dt><dd>How useful the project will be for its target users. Does it solve an existing problem? Does it significantly reduce work time for its users?</dd>
+                <dt>Innovation</dt><dd>How groundbreaking the project is. The more unique and unprecedented the idea behind the project, the better. Also applies to projects developed in a unique way.</dd>
+                <dt>Correctness</dt><dd>The less bugs, the better. This category values working products over complete ones.</dd>
+                <dt>Maintainability</dt><dd>How easy will be for future developers to keep contributing to this project after SpawnFest is over.</dd>
+                <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd>
+              </dl>
+              "
+      - text: "Final score of each team will be computed as the sum of the points received in all those categories."
+      - text: "The team with the highest final score will be the winner of the contest."
+      - text: "Other prizes, besides the one for the winner, will be awarded as well."
+      - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
+  - title: Other Rules
+    icon: "fas fa-list-alt"
+    details:
+      - text: "Individual participants or even entire teams can be disqualified if they don't abide by these rules. The organizers reserve the right to apply the punishment they consider fit to any transgression."
+      - text: "Event organizers will not reimburse you for any expenses or losses."
+      - text: "Event organizers are not responsible for any damage, legal actions or any other outcomes that might be a result of your participation."
+      - text: "Event organizers reserve the right to change these rules without prior notification."
+
+ideas:
+  - title: Erlang Code Improver
+    description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
+  - title: Process Mocker
+    description: <a target="_blank" href="https://hex.pm/packages/meck">Meck</a> allows you to mock modules and functions. A similar tool that would allow you to mock processes (i.e. step between a registered process and its callers and mock its behavior, passthrough others, count messages received, etc) would be great.
+  - title: Some Application
+    description: If you feel adventureous, why not implementing something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
+  - title: A Game
+    description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
+  - title: Dialyzer Simplifier
+    description: We always complain about the cryptic (always right, tho) messages Dialyzer generates. It would be amazing to create something to help newcommers (and experience devs alike) understand them better.
